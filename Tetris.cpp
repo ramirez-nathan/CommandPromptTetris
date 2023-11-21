@@ -224,7 +224,7 @@ int main()
 		WriteConsoleOutputCharacter(hConsole, screen, nScreenWidth * nScreenHeight, { 0,0 }, &dwBytesWritten);
 	}
 
-	// Oh Dear
+	// Oh No
 	CloseHandle(hConsole);
 	cout << "Game Over!! Score:" << nScore << endl;
 	system("pause");
